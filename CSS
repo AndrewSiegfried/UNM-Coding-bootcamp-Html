@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stlyes.css">
+</head>
+<body>
+    <header>
+        <style>
+            
+        </style>
+          <h1><center>Andrew Siegfried</center></h1>
+        
+    </header> 
+    <div class="hov">
+        <a href="/mainpage.html">Main page</a> &nbsp;
+        <a href="/Aboutme.html">About me</a> &nbsp;
+        <a href="/contactme.html">Contact me</a>
+    </div>
+    <p>Hi im Andrew Siegfried i am currently enrolled in Promineo Tech to learn
+        about Front End Devloptment. I signed up for this class because i have a passion 
+        for computers. <br> I'm fasinated at how well computers can help every day life in this world
+        i strive for perfection and even though i might not get it all the time i try my best
+        to produce the most effient code i possibly can. <br> I am a strong believer if you dont know something learn it.
+        If i dont know something i rearch what i dont know because the more you know the better! <br>
+    </p>
+    <p>here  are some things i am proficent in.</p>
+    <ul>
+        <li>
+           <mark>Html</mark>
+            <li>
+                <mark>JavaScript</mark> 
+                <li>
+                    <mark>React</mark>
+                    <li>
+                        <mark>JQuery</mark>
+                        <li>
+                            <mark>Ajax</mark>
+                            <li>
+                                <mark>Bootstrap</mark>
+                                <li>
+                                <mark>CSS</mark>
+                                </li>
+                            </li>
+                        </li>
+                    </li>
+                </li>
+            </li>
+        </li>
+    </ul>
+    <table>
+        <tr>
+            <th>Price</th>
+            <th>Cash</th>
+        </tr>
+        <td>1500</td>
+            <td>200</td>
+        <tr>
+            <td>1800</td>
+            <td>2000</td> 
+        </tr>
+    </table>
+</body>
+</html>
+// Pg 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stlyes.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2 ><center>About Me</center></h2>
+    </header>
+    <div>
+        <a href="/mainpage.html">Main page</a>&nbsp;
+        <a href="/Aboutme.html">About me</a>&nbsp;
+        <a href="/contactme.html">Contact me</a>
+    </div>
+    <p><h1>I'm a family oriented person i love spending time with my family this is a picture of me and my wife.</h1></p>
+    <img width= 400 src="/meAndCelina.jpg" alt="Picture of me and my wife">
+    <p><h1>this is us at universal with the kids.</h1></p>
+    <img width= 600 src="/universal.JPG" alt="this is us at universal with the kids">
+    <p><h1>and our goofy dog chip</h1></p>
+    <img width= 400 src="chip.jpg" alt="and our goofy dog chip">
+</body>
+</html>
+// pg 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stlyes.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><center>Contact Me </center></h1>
+    </header>
+    <div>
+        <a href="/mainpage.html">Main page</a>&nbsp;
+        <a href="/Aboutme.html">About me</a>&nbsp;
+        <a href="/contactme.html">Contact me</a>
+        </div>
+<p> If you wish to have a study session please enter your info below!</p>
+        <input type="text" name="First Name" placeholder="First Name"> <br>
+    <input type="text" name="Last Name" placeholder="Last Name"> <br>
+    <input type="text" name="Email" placeholder="Email"><br>
+    <input type="text" name="Phone Number" placeholder="Phone Number">
+    <input type="submit">
+    
+</body>
+</html>
+// pg 4
+H1{
+    background-color:rgb(4, 255, 242);
+}
+div{
+    background-color:rgb(4, 255, 242);
+}
+.hov{
+    width: 400px;
+    background-color: black;
+}
+.hov:hover {
+    background-color: aqua;
+}
